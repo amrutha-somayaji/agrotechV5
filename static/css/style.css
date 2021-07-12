@@ -205,6 +205,16 @@ nav ul ul ul li {
 /* Change ' +' in order to change the Dropdown symbol */
 li > a:only-child:after { content: ''; }
 
+li.nav-item.active{
+    background-color: #21618C;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+}
+
+li.nav-item{
+    padding-left: 20px;
+}
 
 /* Media Queries
 --------------------------------------------- */
@@ -1224,10 +1234,10 @@ a.move-top {
 }
 @media(max-width:1080px) {
 	.w3layouts-banner-info h3 {
-		font-size: 3.5em;
+		font-size: 6em;
 	}
 	.w3layouts-banner-info {
-		padding-top: 14em;
+		padding-top: 8em;
 	}
 	.banner-top, .banner-top1, .banner-top2, .banner-top3,.overlay,.overlay1 {
 		min-height: 650px;
