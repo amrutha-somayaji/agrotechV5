@@ -84,7 +84,6 @@ header {
 nav { 
 	margin:0;
 	padding: 0;
-    background-color: white;
 	/* position: relative; */
 }
 
@@ -409,11 +408,11 @@ li > a:only-child:after { content: ''; }
 }
 
 .w3layouts-banner-info {
-    padding-top: 16em;
+    padding-top: 8em;
 }
 
 .w3layouts-banner-info h3 {
-    font-size: 4em;
+    font-size: 6em;
     text-shadow: 3px 4px 6px rgba(45, 45, 45, 0.15);
     font-weight: 600;
     color: #fff;
